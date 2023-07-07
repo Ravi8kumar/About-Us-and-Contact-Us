@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About us</title>
+<style>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #555;
+}
+
+.image {
+display: inline;
+  float: left;
+  width: 30%;
+  
+}
+.image1{
+display: inline;
+  float: left;
+  width: 30%;
+  }
+.class {
+  padding: 10px;
+  text-align: center;
+  background-color: #16171a;
+  color: white;
+}
+
+.title {
+  color: blue;
+}
+
+.button {
+ 
+
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 30%;
+}
+
+.button1 {
+ padding: 8px;
+ color: white;
+ background-color: #000;
+ text-align: center;
+ cursor: pointer;
+ border-radius: 6px;
+ width: 30%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+</style>
+</head>
+<body>
+
+        <div class="class">
+                <h1>About Page</h1>
+                    <p>Creating own</p>
+                    <p>Learn about Web technology, going to create about us page</p>
+        </div>
+
+                <h2 style="text-align:center;">Learning program</h2>
+
+        <div class="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMuXIKOZAg4Yjpx49EpGZz6NECbSLQpl22MQ&usqp=CAU" alt="" style="width:50%">
+      
+               <h2>HTML</h2>
+                    <p class="title" style="text-decoration: underline;">Basics</p>
+                    <p>Some basics of html,<br> to develop a webpage.</p>
+                    <p><button class="button" style="margin-left: 40px;">Learn more</button></p>
+        </div>
+
+        <div class="image1">
+    
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ0dbGGNIZr9aedsSgGnhi0Au54LG5Ju4V7g&usqp=CAU" alt="" style="width:50%">
+    
+                <h2>CSS</h2>
+                    <p class="title" style="text-decoration: underline;">Basics</p>
+                    <p>Some basics of css,<br> to design a webpage.</p>
+                    <p><button class="button1" style="margin-left: 50px;">Learn more</button></p>
+        </div>
+        <div>
+                    <img src="https://www.codecademy.com/resources/blog/wp-content/uploads/2022/12/what-is-html.png" width="500px" height="400px">
+        
+        </div>
+        
+</body>
+</html>
